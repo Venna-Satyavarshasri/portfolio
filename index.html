@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Venna Satya Varsha Sri</title>
+    <style>
+        /* Reset and Body Styling */
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #fdf6e3;
+            color: #333;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        /* Navigation Bar */
+        nav {
+            position: sticky;
+            top: 0;
+            background: #f9e1e0;
+            color: #333;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        nav .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #d35f5f;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: #f9e1e0;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            font-style: italic;
+            margin-top: 10px;
+            color: #666;
+        }
+
+        /* About Section */
+        .about {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .about img {
+            width: 300px;
+            height: 300px;
+            
+            border-radius: 100%;
+            margin-bottom: 20px;
+            border: 3px solid #f9e1e0;
+        }
+
+        .about p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        /* Skills Section */
+        .skills {
+            background: #fff;
+            color: #333;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .skills h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .skill {
+            background: #f9e1e0;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #333;
+            border: none;
+            border-radius: 20px;
+            width: 150px;
+            height: 40px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .skill:hover {
+            background: #d35f5f;
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        /* Projects Section */
+        .projects {
+            text-align: center;
+            padding: 50px 20px;
+            background: #fdf6e3;
+        }
+
+        .projects h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .project-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .project {
+            background: #f9e1e0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .project h3 {
+            font-size: 1.5rem;
+        }
+
+        .project p {
+            font-size: 1rem;
+            margin: 10px 0 0;
+            color: #555;
+        }
+
+        /* Footer Section */
+        footer {
+            background: #f9e1e0;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="name">Venna Satya Varsha Sri</div>
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Venna Satya Varsha Sri</h1>
+        <p>Web Developer | Problem Solver | Innovator</p>
+    </header>
+
+    <section id="about" class="about">
+        <img src="imagee.jpeg" alt="Venna Satya Varsha Sri">
+        <p>Hi! I'm Venna Satya Varsha Sri, a passionate web developer with a deep enthusiasm for technology. I'm constantly exploring the latest technologies, tools, and frameworks to stay ahead in this fast-paced world of innovation.</p>
+        <p>From building dynamic web applications using JavaScript and ReactJS to solving complex problems with Python, I am driven by a love for continuous learning and creating impactful solutions. Whether it's exploring new trends like artificial intelligence, machine learning, or full-stack development, I always embrace challenges with an open mind and a desire to innovate.</p>
+        <p>Every day is an opportunity for me to learn, grow, and contribute to the tech community. I believe in the power of technology to make a real difference, and my goal is to be a part of the next big thing in tech!</p>
+    </section>
+    
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-list">
+            <button class="skill">HTML</button>
+            <button class="skill">CSS</button>
+            <button class="skill">JavaScript</button>
+            <button class="skill">ReactJS</button>
+            <button class="skill">SQL</button>
+            <button class="skill">Python</button>
+            <button class="skill">Node.js</button>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Chatbot</h3>
+                <p>A conversational chatbot built using Python and Natural Language Processing.</p>
+            </div>
+            <div class="project">
+                <h3>Women’s Safety Website</h3>
+                <p>An informative and interactive platform focusing on women’s safety, built with HTML, CSS, JavaScript, and PHP.</p>
+            </div>
+            <div class="project">
+                <h3>Tower of Hanoi Visualization</h3>
+                <p>A dynamic visualization tool to learn and practice the Tower of Hanoi problem-solving technique.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <footer>
+            <p>Contact: <a href="mailto:varshareddyvenna@gmail.com" style="color: #d35f5f;">varshareddyvenna@gmail.com</a></p>
+            <p>© 2024 Venna Satya Varsha Sri</p>
+        </footer>
+    </section>
+</body>
+</html>
